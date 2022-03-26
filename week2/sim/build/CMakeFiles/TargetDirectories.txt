@@ -1,0 +1,4 @@
+/home/borbende/geant4/sim/build/CMakeFiles/rebuild_cache.dir
+/home/borbende/geant4/sim/build/CMakeFiles/Simulation.dir
+/home/borbende/geant4/sim/build/CMakeFiles/edit_cache.dir
+/home/borbende/geant4/sim/build/CMakeFiles/sim.dir
