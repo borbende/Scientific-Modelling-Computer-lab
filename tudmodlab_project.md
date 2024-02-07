@@ -7,7 +7,7 @@ To view such an image there exists a good number of tools such as the softwares 
 However, when it comes to performing analysis on a great amount of images extracted from WSIs, it is generally a better idea to utilise programming packages like openslide-python.
 
 <picture>
-<img src="[YOUR-DEFAULT-IMAGE](https://github.com/borbende/Scientific-Modelling-Computer-lab/blob/main/wsi_p.png)https://github.com/borbende/Scientific-Modelling-Computer-lab/blob/main/wsi_p.png">
+<img src="https://github.com/borbende/Scientific-Modelling-Computer-lab/blob/main/wsi_p.png)https://github.com/borbende/Scientific-Modelling-Computer-lab/blob/main/wsi_p.png">
 </picture>
 
 
