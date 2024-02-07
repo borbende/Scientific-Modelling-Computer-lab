@@ -20,3 +20,16 @@ The goal of this project is to explore the data analysis options offered by open
 3. Perform unsupervised image classification. (K-Means, PCA, hierarchical clustering, ...) For this task, you will arguably obtain more meaningful results if the WSI contains more than one type of tissue or has significantly differing tissue parts. From which pyramid level could you get the best results? Compare them for both efficiency and runtime.
 4. Find some WSIs with H\&E staining and apply the function (https://www.youtube.com/watch?v=tNfcvgPKgyU&t=1006s) that separates the two staining types. Produce some meaningful visualisation to highlight the difference in the new images. Do a little research as to why you are seeing what you are seeing. Then, repeat the image classification task for both staining on the "best" pyramid level you determined during the last task. What changed? Are the results worse for both staining?
 5. Organise everything you worked on into a proper workflow with descriptions, comments and a good outline.
+
+## 3. Additional tasks
+
+1. Find a way to rebuild the pyramid structure of a WSI from the many tiles you extracted from all levels.
+2. Explore your options to store images as vectors in a database. Encoding images as vectors might require the use of neural networks.
+
+## 4. Pointers
+
+- Option to download whole slide images: https://portal.gdc.cancer.gov/
+- Alternative download source: https://www.cancerimagingarchive.net/collection/ovarian-bevacizumab-response/
+- openslide-python documentation: https://openslide.org/api/python/
+- Whole Slide Imaging in Pathology: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7522141/
+- A useful tutorial for openslide-python: https://www.youtube.com/watch?v=QntLBvUZR5c
