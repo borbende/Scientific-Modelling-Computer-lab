@@ -17,6 +17,20 @@ Examples: any convolutional network, pretrained models like ResNet50, Vision Tra
 One may ask the question: Does it matter what method/model we generate the embedding vectors with? Would it influence the quality of the classification results? The goal of this project is to explore this question on a certain level. More often than not when someone conducts a machine learning task,
 they will simply look at a state of the art model and tune it to their needs. However, in this case we will go deeper and check how the embedding itself and not just something like the learning rate influences the outcome.
 
+## 2. Project outline
+
+1. Install openslide-python and familiarise yourself with its features and with its connection to other packages. Specifically, check its ability to patch a WSI. (The package has some basic WSIs that you can use.)
+2. Explore your options for data acquisition. Download some whole slide images and explore their pyramid structure with openslide-python. Make sure to get slides with different tissues on them (liver, stomach, intestine, etc.) or multiple WSIs with differing tissue types. The latter might be the easier option as proper annotations are hard to come by. Find the optimal zoom level for the images in openslide. (Be creative!)
+3. Create patches at the optimal zoom level. Use tiles that contain an agreeable amount of tissue data instead of blank space.
+5. Perform unsupervised image classification. (K-Means, PCA, hierarchical clustering, ...) For this task, you will arguably obtain more meaningful results if the WSI contains more than one type of tissue or has significantly differing tissue parts. From which pyramid level could you get the best results? Compare them for both efficiency and runtime.
+6. Find some WSIs with H\&E staining and apply the function (https://www.youtube.com/watch?v=tNfcvgPKgyU&t=1006s) that separates the two staining types. Produce some meaningful visualisation to highlight the difference in the new images. Do a little research as to why you are seeing what you are seeing. Then, repeat the image classification task for both staining on the "best" pyramid level you determined during the last task. What changed? Are the results worse for both staining?
+7. Organise everything you worked on into a proper workflow with descriptions, comments and a good outline.
+
+
+
+
+
+
 
 - Unsupervised classification models: Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), t-Disctributed Stochastic Neighbour Embedding (tSNE), Uniform Manifold Approximation and Projection (UMAP)
 
