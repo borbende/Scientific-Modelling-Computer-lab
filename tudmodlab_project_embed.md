@@ -17,6 +17,10 @@ Examples: any convolutional network, pretrained models like ResNet50, Vision Tra
 One may ask the question: Does it matter what method/model we generate the embedding vectors with? Would it influence the quality of the classification results? The goal of this project is to explore this question on a certain level. More often than not when someone conducts a machine learning task,
 they will simply look at a state of the art model and tune it to their needs. However, in this case we will go deeper and check how the embedding itself and not just something like the learning rate influences the outcome.
 
+Requirements: Python coding, knowledge of data analysis tools and models from Scikit-learn and PyTorch.
+
+
+
 ## 2. Project outline
 
 1. Install openslide-python and familiarise yourself with its features and with its connection to other packages. Specifically, check its ability to patch a WSI. (The package has some basic WSIs that you can use.)
