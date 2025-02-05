@@ -42,3 +42,4 @@ Requirements: Python coding, knowledge of data analysis tools and models from Sc
 - A useful tutorial for openslide-python: https://www.youtube.com/watch?v=QntLBvUZR5c
 - A useful article on embeddings: https://arxiv.org/abs/2307.05610
 - A few good blogposts about embeddings: https://zilliz.com/learn/image-embeddings-for-enhanced-image-search, https://medium.com/@uday.chitragar/understanding-embeddings-in-image-analysis-c87b795cef60
+- UNI embedder: https://huggingface.co/MahmoodLab/UNI
